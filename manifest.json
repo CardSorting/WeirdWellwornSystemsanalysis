@@ -1,0 +1,28 @@
+{
+  "manifestVersion": 4,
+  "id": "com.popfusion.playingcardsheet",
+  "name": "Pop Fusion Playing Card Sheet",
+  "version": "1.0.0",
+  "author": "William",
+  "description": "A Photoshop plugin for creating playing card sheets.",
+  "host": {
+    "app": "PHXS",
+    "minVersion": "21.0.0"
+  },
+  "main": "dist/index.js",
+  "uiEntryPoints": [
+    {
+      "type": "panel",
+      "label": "Playing Card Sheet Setup",
+      "panelId": "panel1",
+      "icon": "images/icon.png",
+      "mainPath": "dist/index.js",
+      "geometry": {
+        "size": {
+          "width": 300,
+          "height": 500
+        }
+      }
+    }
+  ]
+}

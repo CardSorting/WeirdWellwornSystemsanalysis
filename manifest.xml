@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="7.0" ExtensionBundleId="com.popfusion.photoshopplugin" ExtensionBundleVersion="1.0.0" ExtensionBundleName="Pop Fusion Photoshop Plugin">
+  <ExtensionList>
+    <Extension Id="com.popfusion.photoshopplugin.playingcardsheet"/>
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+      <Host Name="PHXS" Version="[16.0,99.9]"/>
+    </HostList>
+    <LocaleList>
+      <Locale Code="All"/>
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="6.0"/>
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="com.popfusion.photoshopplugin.playingcardsheet">
+      <DispatchInfo>
+        <Resources>
+          <MainPath>./PlayingCardSheet.jsx</MainPath>
+          <ScriptPath>./PlayingCardSheet.jsx</ScriptPath>
+        </Resources>
+        <Lifecycle>
+          <AutoVisible>false</AutoVisible>
+        </Lifecycle>
+        <UI>
+          <Type>Panel</Type>
+          <Menu>Playing Card Sheet Setup</Menu>
+          <Geometry>
+            <Size>
+              <Width>300</Width>
+              <Height>500</Height>
+            </Size>
+          </Geometry>
+        </UI>
+      </DispatchInfo>
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>
